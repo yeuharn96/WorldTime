@@ -7,9 +7,7 @@ import 'pages/minesweeper.dart';
 
 void main() {
   runApp(MaterialApp(
-    // initialRoute: '/tictactoe',
     routes: {
-      // '/': (context) => Loading(),
       '/': (context) => Home(),
       '/location': (context) => ChooseLocation(),
       '/minesweeper': (context) => MineSweeper(),
